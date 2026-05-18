@@ -9,14 +9,16 @@ body{
 display: flex;
 flex-direction: column;
 align-items: center;
-
-
-
-
+gap: 1rem;
 }
 .card-header{
  background-color: #ebebeb;
  text-align: center;
+
+
+
+}
+.primerdiv{
 
 
 }
@@ -44,132 +46,60 @@ align-items: center;
 }
 
 .contenedor{
-    background: lightgray;
+    background: rgb(229, 227, 227);
+    width: 200rem;
+    height: 3rem;
     position: relative;
     padding: 2rem;
 
 
 }
-.idiomas{
-    position:absolute;
-left: 195rem;
-bottom: 4rem;
-    
+main{
+    width: 60rem;
+    background-color: rgb(195, 247, 247);
+    height: 40rem;
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
-
-:active{
-    color: rgb(51, 51, 206);
-    font-weight: bold;
-    border: 0.2rem brown; 
- 
-}
-
-.uno{
-    background-color: rgb(177, 231, 231);
-    position: relative;
-    height: 50rem;
-    height: 100rem;
-    margin: 0rem 6rem;
-}
-
-.dos{
-    font-size: 5rem;
-    position: absolute;
-    bottom: 60rem;
-    left: 60rem;
- 
-}
-.tres{
-       font-size: 4rem;
-    position: absolute;
-    bottom: 55rem;
-    left: 70rem;
-    color: blue;
-}
-.texto{
-
-    position: relative;
-    bottom: 59rem;
-    left: 50rem;
-}
-
-.btn-proyecto{
-    background-color: aqua;
-    padding: 2rem;
-    border-radius: 0.5rem;
-    border: 0.1rem solid  aqua;
-    color:rgb(0, 0, 0) ;
-    font-weight: bold;
-     position: relative;
-      left: 100rem;
- bottom: 50rem
-     
-}
-
-.btn-info{
- border: 0.2px solid blue;
- background-color: aliceblue;
- padding: 2rem;
- border-radius: 0.8rem;
- color: blue;
- font-weight: bold;
- position: relative;
- left: 70rem;
- bottom: 50rem
-}
-
-
-.numeros{
+main h2{
     font-size: 3rem;
-    
 }
 
-.n11{
+main h3{
     color: blue;
-    position: absolute;
-    justify-content: center;
-    bottom: 15rem;
-    left: 66rem;
+    font-size: 1.5rem;
 }
+ .texto{
+    width: 50rem;
+    height: 5rem;
+ }
 
-.n111{
-    font-size: 2rem;
-       position: absolute;
-    justify-content: center;
-    bottom: 13rem;
-    left: 60rem;
-}
+ .bo{
+   
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+ }
+ .b1{
+ background-color: blue;
+ color: #ebebeb;
+ }
+ .b2{
+    color: blue;
+ }
 
-.n22{
-       color: blue;
-    position: absolute;
-    justify-content: center;
-    bottom: 15rem;
-    left: 96rem;
-}
+ .numeros{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+ }
 
-.n222{
-   font-size: 2rem;
-       position: absolute;
-    justify-content: center;
-    bottom: 13rem;
-    left: 90rem;
-
-}
-
-.n33{
-        color: blue;
-    position: absolute;
-    justify-content: center;
-    bottom: 15rem;
-    left: 1250px;
-}
-
-.n333{
-       font-size: 2rem;
-       position: absolute;
-    justify-content: center;
-    bottom: 13rem;
-    left: 122rem;
-
-}
+ .numeros h2{
+color: blue;
+font-size: 2rem;
+ }
